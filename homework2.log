@@ -1,0 +1,455 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  31 MAY 2015 19:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**homework2.tex
+(./homework2.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(./homework2.aux
+
+LaTeX Warning: Label `default' multiply defined.
+
+)
+\openout1 = `homework2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks16
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 26.
+
+<transient_mean1.png, id=1, 455.7025pt x 360.34625pt>
+File: transient_mean1.png Graphic file (type png)
+
+<use transient_mean1.png>
+Package pdftex.def Info: transient_mean1.png used on input line 42.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ <SD_1.png, id=3, 455.7025pt x 360.34625pt>
+File: SD_1.png Graphic file (type png)
+
+<use SD_1.png>
+Package pdftex.def Info: SD_1.png used on input line 43.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ <SD11.png, id=4, 455.7025pt x 360.34625pt>
+File: SD11.png Graphic file (type png)
+ <use SD11.png>
+Package pdftex.def Info: SD11.png used on input line 44.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<CV1.png, id=5, 455.7025pt x 360.34625pt>
+File: CV1.png Graphic file (type png)
+ <use CV1.png>
+Package pdftex.def Info: CV1.png used on input line 45.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./trans
+ient_mean1.png> <./SD_1.png>] <mean2.png, id=23, 455.7025pt x 360.34625pt>
+File: mean2.png Graphic file (type png)
+ <use mean2.png>
+Package pdftex.def Info: mean2.png used on input line 55.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<v2.png, id=24, 455.7025pt x 360.34625pt>
+File: v2.png Graphic file (type png)
+ <use v2.png>
+Package pdftex.def Info: v2.png used on input line 56.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<SD2.png, id=25, 455.7025pt x 360.34625pt>
+File: SD2.png Graphic file (type png)
+ <use SD2.png>
+Package pdftex.def Info: SD2.png used on input line 57.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<CV2.png, id=26, 455.7025pt x 360.34625pt>
+File: CV2.png Graphic file (type png)
+ <use CV2.png>
+Package pdftex.def Info: CV2.png used on input line 58.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+<trace1_1_full.pdf, id=27, 505.89pt x 505.89pt>
+File: trace1_1_full.pdf Graphic file (type pdf)
+ <use trace1_1_full.pdf>
+Package pdftex.def Info: trace1_1_full.pdf used on input line 65.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+
+[2 <./SD11.png> <./CV1.png> <./mean2.png> <./v2.png> <./SD2.png> <./CV2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+<Rplot_2.png, id=37, 455.7025pt x 360.34625pt>
+File: Rplot_2.png Graphic file (type png)
+ <use Rplot_2.png>
+Package pdftex.def Info: Rplot_2.png used on input line 69.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<Rplot_50000000.png, id=38, 455.7025pt x 360.34625pt>
+File: Rplot_50000000.png Graphic file (type png)
+ <use Rplot_50000000.png>
+Package pdftex.def Info: Rplot_50000000.png used on input line 70.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<1_pdf_inter_arrival.png, id=39, 455.7025pt x 360.34625pt>
+File: 1_pdf_inter_arrival.png Graphic file (type png)
+
+<use 1_pdf_inter_arrival.png>
+Package pdftex.def Info: 1_pdf_inter_arrival.png used on input line 72.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<1_cdf_inter_arrival.png, id=40, 455.7025pt x 360.34625pt>
+File: 1_cdf_inter_arrival.png Graphic file (type png)
+
+<use 1_cdf_inter_arrival.png>
+Package pdftex.def Info: 1_cdf_inter_arrival.png used on input line 73.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+Overfull \hbox (5.3797pt too wide) in paragraph at lines 69--75
+[][] [] 
+ []
+
+[3 <./trace1_1_full.pdf> <./Rplot_2.png> <./Rplot_50000000.png>]
+<trace1_service1.pdf, id=119, 331.74158pt x 354.66423pt>
+File: trace1_service1.pdf Graphic file (type pdf)
+
+<use trace1_service1.pdf>
+Package pdftex.def Info: trace1_service1.pdf used on input line 76.
+(pdftex.def)             Requested size: 165.87038pt x 177.33168pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+<trace1_service2.pdf, id=120, 505.89pt x 505.89pt>
+File: trace1_service2.pdf Graphic file (type pdf)
+ <use trace1_service2.pdf>
+Package pdftex.def Info: trace1_service2.pdf used on input line 80.
+(pdftex.def)             Requested size: 182.12025pt x 182.12025pt.
+
+<trace1_2_pdf.pdf, id=121, 354.02745pt x 347.02338pt>
+File: trace1_2_pdf.pdf Graphic file (type pdf)
+ <use trace1_2_pdf.pdf>
+Package pdftex.def Info: trace1_2_pdf.pdf used on input line 83.
+(pdftex.def)             Requested size: 177.01329pt x 173.51126pt.
+
+<trace1_2_cdf.pdf, id=122, 367.399pt x 362.30507pt>
+File: trace1_2_cdf.pdf Graphic file (type pdf)
+ <use trace1_2_cdf.pdf>
+Package pdftex.def Info: trace1_2_cdf.pdf used on input line 84.
+(pdftex.def)             Requested size: 183.69905pt x 181.15208pt.
+
+<acf1.png, id=123, 455.7025pt x 360.34625pt>
+File: acf1.png Graphic file (type png)
+ <use acf1.png>
+Package pdftex.def Info: acf1.png used on input line 86.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<acf2.png, id=124, 455.7025pt x 360.34625pt>
+File: acf2.png Graphic file (type png)
+ <use acf2.png>
+Package pdftex.def Info: acf2.png used on input line 87.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ [4 <./1_pdf_inter_arrival.png> <./1_cdf_inter_arrival.png> <./trace1_service1.
+pdf> <./trace1_service2.pdf>] <traninterarrival2.png, id=257, 455.7025pt x 360.
+34625pt>
+File: traninterarrival2.png Graphic file (type png)
+
+<use traninterarrival2.png>
+Package pdftex.def Info: traninterarrival2.png used on input line 93.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<vinterarrival2.png, id=258, 455.7025pt x 360.34625pt>
+File: vinterarrival2.png Graphic file (type png)
+
+<use vinterarrival2.png>
+Package pdftex.def Info: vinterarrival2.png used on input line 94.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<SDinterarrival2.png, id=259, 455.7025pt x 360.34625pt>
+File: SDinterarrival2.png Graphic file (type png)
+
+<use SDinterarrival2.png>
+Package pdftex.def Info: SDinterarrival2.png used on input line 95.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<CVinterarrival2.png, id=260, 455.7025pt x 360.34625pt>
+File: CVinterarrival2.png Graphic file (type png)
+
+<use CVinterarrival2.png>
+Package pdftex.def Info: CVinterarrival2.png used on input line 96.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ <mservice2.png, id=261, 455.7025pt x 360.34625pt>
+File: mservice2.png Graphic file (type png)
+
+<use mservice2.png>
+Package pdftex.def Info: mservice2.png used on input line 98.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ <vservice2.png, id=262, 455.7025pt x 360.34625pt>
+File: vservice2.png Graphic file (type png)
+
+<use vservice2.png>
+Package pdftex.def Info: vservice2.png used on input line 99.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ <SDservice2.png, id=263, 455.7025pt x 360.34625pt>
+File: SDservice2.png Graphic file (type png)
+
+<use SDservice2.png>
+Package pdftex.def Info: SDservice2.png used on input line 100.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ <CVservice2.png, id=264, 455.7025pt x 360.34625pt>
+File: CVservice2.png Graphic file (type png)
+
+<use CVservice2.png>
+Package pdftex.def Info: CVservice2.png used on input line 101.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ <pdfservice2.pdf, id=265, 505.89pt x 505.89pt>
+File: pdfservice2.pdf Graphic file (type pdf)
+
+<use pdfservice2.pdf>
+Package pdftex.def Info: pdfservice2.pdf used on input line 103.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ <cdfservice2.pdf, id=266, 505.89pt x 505.89pt>
+File: cdfservice2.pdf Graphic file (type pdf)
+
+<use cdfservice2.pdf>
+Package pdftex.def Info: cdfservice2.pdf used on input line 104.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ <pdf2222.pdf, id=267, 505.89pt x 505.89pt>
+File: pdf2222.pdf Graphic file (type pdf)
+
+<use pdf2222.pdf>
+Package pdftex.def Info: pdf2222.pdf used on input line 105.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ <cdf2222.pdf, id=268, 505.89pt x 505.89pt>
+File: cdf2222.pdf Graphic file (type pdf)
+ <use cdf2222.pdf>
+Package pdftex.def Info: cdf2222.pdf used on input line 106.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+
+<acf22inter.png, id=269, 455.7025pt x 360.34625pt>
+File: acf22inter.png Graphic file (type png)
+ <use acf22inter.png>
+Package pdftex.def Info: acf22inter.png used on input line 108.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+<acf22service.png, id=270, 455.7025pt x 360.34625pt>
+File: acf22service.png Graphic file (type png)
+ <use acf22service.png>
+Package pdftex.def Info: acf22service.png used on input line 109.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+
+Overfull \hbox (38.56708pt too wide) in paragraph at lines 91--110
+[] []
+ []
+
+
+Overfull \hbox (38.56708pt too wide) in paragraph at lines 91--110
+[] [] 
+ []
+
+[5 <./trace1_2_pdf.pdf> <./trace1_2_cdf.pdf> <./acf1.png> <./acf2.png> <./trani
+nterarrival2.png> <./vinterarrival2.png>] [6 <./SDinterarrival2.png> <./CVinter
+arrival2.png> <./mservice2.png> <./vservice2.png> <./SDservice2.png> <./CVservi
+ce2.png>] [7 <./pdfservice2.pdf> <./cdfservice2.pdf> <./pdf2222.pdf> <./cdf2222
+.pdf>] <C2_2000.png, id=652, 686.565pt x 479.7925pt>
+File: C2_2000.png Graphic file (type png)
+ <use C2_2000.png>
+Package pdftex.def Info: C2_2000.png used on input line 128.
+(pdftex.def)             Requested size: 205.97108pt x 143.93884pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--143
+
+ []
+
+File: mean2.png Graphic file (type png)
+<use mean2.png>
+Package pdftex.def Info: mean2.png used on input line 144.
+(pdftex.def)             Requested size: 227.85068pt x 180.17268pt.
+ [8 <./acf22inter.png> <./acf22service.png> <./C2_2000.png>]
+<wdev_0_meanwait_common.png, id=658, 628.3475pt x 481.8pt>
+File: wdev_0_meanwait_common.png Graphic file (type png)
+
+<use wdev_0_meanwait_common.png>
+Package pdftex.def Info: wdev_0_meanwait_common.png used on input line 148.
+(pdftex.def)             Requested size: 188.50569pt x 144.5411pt.
+
+<wdev_0_mean_exponential.png, id=659, 628.3475pt x 485.815pt>
+File: wdev_0_mean_exponential.png Graphic file (type png)
+
+<use wdev_0_mean_exponential.png>
+Package pdftex.def Info: wdev_0_mean_exponential.png used on input line 149.
+(pdftex.def)             Requested size: 188.50569pt x 145.74562pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+<hw2_auto.png, id=660, 724.7075pt x 546.04pt>
+File: hw2_auto.png Graphic file (type png)
+ <use hw2_auto.png>
+Package pdftex.def Info: hw2_auto.png used on input line 153.
+(pdftex.def)             Requested size: 217.41393pt x 163.81326pt.
+ [9 <./wdev_0_meanwait_common.png> <./wdev_0_mean_exponential.png>] [10 <./hw2_
+auto.png>]
+(./homework2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1677 strings out of 493117
+ 24885 string characters out of 6135433
+ 80018 words of memory out of 5000000
+ 5114 multiletter control sequences out of 15000+600000
+ 8512 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,8n,23p,302b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on homework2.pdf (10 pages, 1339273 bytes).
+PDF statistics:
+ 700 PDF objects out of 1000 (max. 8388607)
+ 484 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+

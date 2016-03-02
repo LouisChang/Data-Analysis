@@ -1,0 +1,542 @@
+0.002831429*4
+0.3701891+0.4711498+0.1472343+0.01132572
+0.9998989+0.0001011225
+choose(15,8)*choose(6,2)/choose(21,15)
+choose(15,8)
+choose(21,15)
+choose(10,2)*choose(11,4)/choose(21,6)
+choose(11,2)/choose(28,2)*9/26
+11*17/choose(28,2)*10/26
+choose(17,2)/choose(28,2)*11/26
+SecondBlackProb
+SecondBlackProb.r
+SecondBlackProb <- function (m1, n1, m2, n2)#
+{#
+	nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = m1#
+		b1 = n1#
+		w2 = m2#
+		b2 = n2#
+		if (runif(1) < b1/(w1+b1)) {#
+			b2 = b2 + 1#
+		}#
+		else {#
+			w2 = w2 + 1#
+		}#
+		if (runif(1) < b2/(b2+w2)) {#
+			count = count + 1#
+		}#
+	}#
+	return (count/nrep)#
+}
+Ω
+nrep = 100000	#
+count = 0	#
+for (i in 1:nrep) {		#
+	w1 = 3		#
+	b1 = 2		#
+	w2 = 1		#
+	b2 = 3		#
+	if (runif(1) < b1/(w1+b1)) {			#
+		b2 = b2 + 1		#
+	}		#
+	else {			#
+		w2 = w2 + 1		#
+	}		#
+	if (runif(1) < b2/(b2+w2)) {			#
+		count = count + 1		#
+	}	#
+}	#
+print (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		w2 = m2#
+		b2 = n2#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 + 1#
+		}#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	return (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 + 1#
+		}#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	return (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 + 1#
+		}#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) < b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) > b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) > b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)#
+}
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) > b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) > b1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else {#
+			b1 = b1 - 1#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < b1*(b1-1)/((w1+b1)*(w1+b1-1))) {#
+			b1 = b1 - 2#
+		}#
+		else if (runif(1) < b1*w1*2/((b1+w1)*(b1+w1-1)){#
+			b1 = b1 - 1#
+			w1 = w1 - 1#
+		}#
+		else {#
+			w1 = w1 - 2#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < b1*(b1-1)/((w1+b1)*(w1+b1-1))) {#
+			b1 = b1 - 2#
+		}#
+		else if (runif(1) < b1*w1*2/((b1+w1)*(b1+w1-1)) {#
+			b1 = b1 - 1#
+			w1 = w1 - 1#
+		}#
+		else {#
+			w1 = w1 - 2#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+SecondBlackProb <- function (m1, n1, m2, n2)#
+{#
+	nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < b1*(b1-1)/((w1+b1)*(w1+b1-1))) {#
+			b1 = b1 - 2#
+		}#
+		else  {#
+			if (runif(1) < b1*w1*2/((b1+w1)*(b1+w1-1)) {#
+			b1 = b1 - 1#
+			w1 = w1 - 1#
+			}#
+			else {#
+			w1 = w1 - 2#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)#
+}
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < b1*(b1-1)/((w1+b1)*(w1+b1-1))) {#
+			b1 = b1 - 2#
+		}#
+		else  {#
+			if (runif(1) < b1*w1*2/((b1+w1)*(b1+w1-1)) {#
+			b1 = b1 - 1#
+			w1 = w1 - 1#
+			}#
+			else {#
+			w1 = w1 - 2#
+			}#
+		}#
+		if (runif(1) < b1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+edit
+edit SecondBlackProb.r
+edit SecondBlackProb
+edit function(b1,w1)
+clear
+clear;
+clr
+car
+x = seq(0,1,length=100)
+y= x/(1-(1-x)^3)
+plot(x,y,type="l")
+x = seq(0,1,length=100)
+y= (1-x)*x/(1-(1-x)^3)
+plot(x,y,type="l")
+x = seq(0,1,length=100)
+y= (1-x)*(1-x)*x/(1-(1-x)^3)
+plot(x,y,type="l")
+x = seq(0,0.1,length=100)
+y= x/(1-(1-x)^3)
+plot(x,y,type="l")
+chooose(47,5)
+choose(47,5)
+11*43/1533939
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < w1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else  {#
+			b1 = b1 - 1#
+			}#
+		}#
+		if (runif(1) < w1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else  {#
+			b1 = b1 - 1#
+			}#
+		}#
+		if (runif(1) < w1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+nrep = 100000#
+	count = 0#
+	for (i in 1:nrep) {#
+		w1 = 11#
+		b1 = 17#
+		if (runif(1) < w1/(w1+b1)) {#
+				w1 = w1 - 1#
+		}#
+		else {#
+				b1 = b1 - 1#
+			}#
+		if (runif(1) < w1/(w1+b1)) {#
+			w1 = w1 - 1#
+		}#
+		else  {#
+			b1 = b1 - 1#
+			}#
+		if (runif(1) < w1/(b1+w1)) {#
+			count = count + 1#
+		}#
+	}#
+	print (count/nrep)
+source ("Secondblackprob.r");
+source("/Users/sidichang/Documents/SecondBlackProb.r")
+secondblackprob(11,17)
+SecondBlackProb(11,17)
+0.00000495/(6*10^-7)
+10.7^2+1.14^2
+\sqrt{115.7896}
+sqrt{115.7896}
+sqrt(115.7896)
+4.7^2+1.14^2
+sqrt(23.3896)
+4.83628/6
+11、40
+11/40
+11/30
+99/780
+11/(35*13)
+1/(8*14*13)
+0.55+0.366
+11/20+11/30
++99/780
+13*12*11*22+12*12*11*3+12*11*8+12*5*2
+16*15*14*13
+11/20+11/35
+99/780
+11/(35*13)
+1/(8*14*13)
+0.864+0.126+0.02
+0.8642857+0.1269231
+11/20
+11/35
+99/910
+11/455
+1/364
+0.55+0.3142857+0.1087912+0.02417582+0.002747253
+11/20
+11/35
+99/910
+11/455
+1/364
+11/20*2+11/35*3+99/910*4+11/455*5+1/364*6
+0.55*(2-2.62)^2+0.3142857*(3-2.62)^2+0.1087912*(4-2.62)^2+0.02417582*(5-2.62)^2+0.002747253*(6-2.62)^2
+2.5*10^9*3.1415926*(8.5*(10^-2))^2
+12/(16*15)
+12*4*2*11/(16*15*14)
+12*4*3*3*11/(16*15*14*13)
+12*4*3*2*4/(16*15*14*13*12)
+12*24*5/(16*15*14*13*12*11)
+55+31.428+10.879+0.219+0.02
+12*4*3*2*4*11*(11!)/(16!)
+2!
+factor(2)
+factor(3)
+factorial(3)
+12*4*3*2*4*11*factorial(11)/factorial(16)
+12*24*5*factorial(11)/factorial(16)
+12*11/16/15
+0.55+0.314+0.109+0.024
+2*0.55+3*0.314+4*0.109+5*0.024+6*0.003
+4*0.55+9*0.314+16*0.109+25*0.024+36*0.003
+7.478-(2.616)^2
+y=logx
+y=log x;
+y=2x
+1+2
+x:1:10
+x=1;
+y=2;
+plot(x,y)
+x=1;
+y=log x
+choose(25,5)
+dpois(17,15)
+ppois(16,15)
+ppois(14,15)
+1-0.4656537
+0.08473555/0.5343463
+ppois(100,15)
+pbinom(9,12,3/4)
+pbinom(9,12,1/5)
+5/6*(1-0.609325)+1/6*(1-0.9999955)
+1/3*choose(25,5)/101
+ppois(100,75)
+pexp(1200,1/1000)
+pbinom(10,30,0.6988)
+pbinom(10,30,0.7)
+pbinom(10,30,0.3012)
+pexp(4,1)
+pexp(4,2)
+pexp(4,1/2)
+pexp(4,1/3)
+(1-0.9816844)*1/6+(1-0.8646647)*1/3+(1-0.7364029)*1/2
+((1-0.7364029)*1/2)/0.1799629
+pbinom(2,9,0.09)
+dpois(2,0.09)
+ppois(2,0.09)
+ppois(2,0.81)
+dexp(50,80)
+dexp(50,40)
+pexp(50,40)
+pnorm(8,2,3)
+pnorm(8,2,3)-pnorm(4,2,3)
+1-pnorm(10,2,3)
+pnorm(72,70,3)
+1-pnorm(72,70,3)
+pnorm(72,67,2)
+1- pnorm(72,67,2)
+(1-pnorm(72,70,3))*(1- pnorm(72,67,2))
+pnorm(90,100,10)
+pnorm(120,100,10)-pnorm(90,100,10)
+pnorm(120,100,10)
+1-ans
+1-0.9772499
+2^3
+20*(0.1586)^3*3*0.8186*0.02
+pnorm(22.3,12,10)
+pnorm(22.3,11,10)
+pnorm(22.3,10,10)
+pnorm(22.3,10.3,10)
+pnorm(22.3,10.6,10)
+pnorm(7,2,3)
+pnorm(6.9,2,3)
+pnorm(6.95,2,3)
+pnorm(6.94,2,3)
+pnorm(6.93,2,3)
+pnorm(6.935,2,3)
+pnorm(8,2,3)-pnorm(-8,2,3)
+pnorm(7.5,2,3)-pnorm(-7.5,2,3)
+pnorm(7.3,2,3)-pnorm(-7.3,2,3)
+pnorm(7,2,3)-pnorm(-7,2,3)
+pnorm(6.9,2,3)-pnorm(-6.9,2,3)
+pnorm(6.95,2,3)-pnorm(-6.95,2,3)
+pnorm(6.96,2,3)-pnorm(-6.96,2,3)
+pnorm(6.97,2,3)-pnorm(-6.97,2,3)
+pnorm(6.975,2,3)-pnorm(-6.975,2,3)
+pnorm(6.977,2,3)-pnorm(-6.977,2,3)
+pnorm(6.976,2,3)-pnorm(-6.976,2,3)
+dbinom(4,6,0.977)
+dbinom(3,6,0.977)
+dbinom(2,6,0.977)
+dbinom(6,6,0.977)
+pchisq(26.119,14)
+pchisq(5.629,14)
+pchisq(26.119,14)-pchisq(5.629,14)
+e^1
+dnorm(72,67,2)
+dnorm(200,67,2)
+dnorm(100,67,2)
+dnorm(73,67,2)
+exp(-3.125)
+PI
+pi
+exp(-3.125)/(sqrt(2*pi))
+x:=1:10
+x=1:10
+y=x*log(x,base=exp(2))
+plot(x,y)
+x=1:100
+y=x*log(x,base=exp(2))
+plot(x,y)
+x=1:100
+y=x/log(x,base=exp(2))
+plot(x,y)
+x=1:12
+y=x/log(x,base=exp(2))
+plot(x,y)
+x=1:100
+y=sqrt(log(x,base=exp(2))/x)
+plot(x,y,type="l")
+y=sqrt(log(3,base=exp(2))/3)
+sqrt(log(3,base=exp(2))/3)
+sqrt(log(2,base=exp(2))/2)
+sqrt(log(4,base=exp(2))/4)
+11.25+6.375+5.625+1.375
+25*(0.9340-0.9247)
+0.2325/35*100
+25*0.9340
+25*0.9340+99*0.20+0.20*77
+93-58.55
+34.34/35*150
+pnorm(12,12.05,0.03)
+dnorm(12,12.05,0.03)
+pnorm(12,12.05,0.03)
+pnorm(12,12.05,3)
+pnorm(12,12.05,0.03)
+qnorm(0.01,12.05,0.03)
+r1=1-(1-p^2)^3
+p = c(0:1000) / 1000.0
+r1=1-(1-p^2)^3
+r1=3*p^2-2*p^3
+plot(x,y,type='l')
+plot(p,r1,type='l')
+data = read.table("wdev_0.csv",T)
+getwd()
+setwd("/Users/sidichang/Documents/Data Analysis/HW2")
+data = read.table("wdev_0.csv",T)
+View(data)
+data
+data = read.table("wdev_0.csv")
+load("/Users/sidichang/Documents/Data Analysis/HW2/wdev_0.csv.gz")
